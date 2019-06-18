@@ -1,0 +1,66 @@
+.postContainer{
+    display:block;
+    height: 80px;
+    border-color: rgb(204, 204, 204);
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid;
+    padding-left: 40px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.voteContainer {
+    background-color: rgb(220, 225, 228);
+    width: 40px;
+    border-left: 4px solid transparent;
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 8px 4px 8px 0;
+    position: relative;
+    left:-40px;
+    float: left;
+}
+
+button {
+    height: 24px;
+    width: 24px;
+    background: transparent;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    padding: initial;
+}
+
+.postBody {
+    display:flex;
+    flex-direction: row;
+    height: 80px;
+    box-sizing: border-box;
+    position: absolute;
+    padding: 8px;
+}
+
+img {
+    width: 70px;
+    height: 100%;
+}
+
+.postDetails {
+    margin-left: 8px;
+    word-break: break-word;
+}
+
+.postHeader{
+    overflow: hidden;
+}
+
+.postActions {
+    padding-top: 8px;
+}
+
+h2 {
+    font-size: 18px;
+}
